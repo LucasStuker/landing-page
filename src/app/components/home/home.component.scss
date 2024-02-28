@@ -1,0 +1,42 @@
+@import "../../../colorVariables.scss";
+
+.mainSection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  //flex-direction: column;
+
+  font-family: "roboto", sans-serif;
+  padding: 0 70px;
+ span{
+  font-size: 20px;
+  font-weight: 700;
+  color: $secondaryText;
+
+ }
+
+  h1{
+    font-size: 62px;
+    font-weight: 900;
+    color: $primaryText;
+  }
+}
+.benefitSection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+@media (min-width: 1080px){
+  .mainSection{
+    flex-direction: row;
+  }
+
+  .benefitSection{
+    flex-direction: row;
+  }
+}
+
+
+
